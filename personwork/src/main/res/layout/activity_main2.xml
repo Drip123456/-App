@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:id="@+id/tv_named"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#035281"
+        android:gravity="center"
+        android:text="欢迎你：dzh"
+        android:textSize="30sp"
+        android:textColor="#FFFFFF"
+/>
+
+    <TextView
+        android:layout_marginTop="15dp"
+
+        android:id="@+id/page3_banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="3dp"
+        android:text="每周计划"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+
+    <EditText
+        android:layout_marginTop="15dp"
+        android:id="@+id/page3_edit"
+        android:layout_width="match_parent"
+        android:layout_height="480sp"
+        android:gravity="start"
+        android:textColorHint="#778899"
+        android:hint=" '\n'   记录点滴生活"
+        android:background="@drawable/edittext_border"
+        android:maxLength="200"
+        android:textSize="20sp" />
+
+    <ImageButton
+        android:id="@+id/bt_yes"
+        android:src="@drawable/ic_yellow_yes"
+        android:background="@color/white"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="end"
+        android:scaleType="fitCenter" />
+
+</LinearLayout>
