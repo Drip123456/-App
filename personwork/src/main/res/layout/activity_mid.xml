@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:id="@+id/bt_week"
+        android:layout_width="305dp"
+        android:layout_height="82dp"
+        android:layout_margin="15dp"
+        android:text="设置每周计划"
+        android:textSize="18sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="本周目标:"
+        android:textSize="30sp"
+        android:gravity="left"
+        />
+    <TextView
+        android:id="@+id/tv_week"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text=""/>
+
+    <Button
+        android:id="@+id/bt_day"
+        android:layout_width="305dp"
+        android:layout_height="82dp"
+        android:layout_margin="15dp"
+        android:text="设置每日学习记录"
+        android:textSize="18sp"
+ />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="每日计划完成情况"/>
+    <TextView
+        android:id="@+id/tv_day"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text=""/>
+
+    <Button
+        android:id="@+id/bt_check"
+        android:layout_width="305dp"
+        android:layout_height="82dp"
+        android:layout_margin="15dp"
+        android:text="能力达标分析"
+        android:textSize="18sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="情况分析"/>
+    <TextView
+        android:id="@+id/tv_analyze"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text=""/>
+</LinearLayout>

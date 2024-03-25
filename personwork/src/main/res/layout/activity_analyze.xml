@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_marginTop="12sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="45sp"
+        android:text="能力达标分析"/>
+    <EditText
+        android:id="@+id/et_analyze"
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:textSize="30dp"
+        android:background="@drawable/edittext_border"
+        android:hint="输入对本周的能力达标分析"/>
+    <Button
+        android:id="@+id/bt_analyze"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="40dp"
+        android:text="提交"/>
+</LinearLayout>
